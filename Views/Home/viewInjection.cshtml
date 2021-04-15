@@ -1,0 +1,11 @@
+﻿@using Microsoft.Extensions.Options
+@inject IOptions<DependencyInjection.Utility.AppSettingsClasses.WazeForecastSettings> wazeForecastSettings
+@model DependencyInjection.Utility.AppSettingsClasses.WazeForecastSettings
+@{ ViewData["Title"] = "Home Page"; }
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>@Model.ForecastTrackerEnabled</p>
+    <p>Current Market Prediction Status : @(wazeForecastSettings.Value.ForecastTrackerEnabled?"Online":"Offline")</p>
+
+</div>

@@ -48,6 +48,14 @@ namespace DependencyInjection.Controllers
             return View();
         }
 
+
+        public IActionResult viewInjection()
+        {
+            return View(new  DependencyInjection.Utility.AppSettingsClasses.WazeForecastSettings());
+           // return View();
+
+        }
+
         public IActionResult Privacy()
         {
             return View();
