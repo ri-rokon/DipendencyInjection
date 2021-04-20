@@ -1,0 +1,5 @@
+2021-04-20T05:35:23.7666537+06:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-04-20T05:35:23.9184538+06:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-04-20T05:35:23.9187351+06:00  [INF] Content root path: "C:\Users\rirok\source\repos\DependencyInjection" (b5d60022)
+2021-04-20T05:35:28.2735394+06:00 80000044-0003-fd00-b63f-84710c7967bb [INF] home Controller Index option Call (ef5989cf)
+2021-04-20T05:35:28.3065570+06:00 80000044-0003-fd00-b63f-84710c7967bb [INF] home Controller Index option end (c303e7a0)
